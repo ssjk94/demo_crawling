@@ -28,6 +28,9 @@ wait = WebDriverWait(driver, 5)
 url = 'https://login.taobao.com/member/login.jhtml?style=miniall&newMini2=true&full_redirect=true&from=worldlogin&redirectURL=https://world.taobao.com'
 driver.get(url=url)
 
+id = ""
+pw = ""
+
 check = False
 
 while check:
